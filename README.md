@@ -1,6 +1,6 @@
-# Deploy pyxirr
+# Deploy python packages
 
-Testing why this package won't deploy to ARM based lambda and to find a workaround.
+Testing why a package won't deploy to ARM based lambda and to find a workaround.
 
 I was seeing:
 
@@ -12,7 +12,7 @@ When running `cdk deploy` and could see it installing the x86 version of the pac
 
 I was on a M2 (ARM) Mac and was specifying `aws_lambda.Architecture.ARM_64` as my lambda arch.
 
-But, here it is, compiling packages for x86!
+But, here it is, compiling packages for x86! How disappointing.
 
 ### Repo
 
